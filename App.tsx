@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {Button, SafeAreaView, Text} from 'react-native';
 import {useTimer} from './src/useTimer';
+import {useRafTimer} from './src/useRafTimer';
 
 function App(): JSX.Element {
   // const [shouldStart, setShouldStart] = useState(false);
